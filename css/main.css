@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font-family: sans-serif;
+
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.bttn {
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 5px;
+	display: inline-block;
+	margin: .5em;
+}
+
+.bttn:hover,
+.bttn:active,
+.bttn:focus {
+	background-color: gray;
+}
+
+.bttn i{
+	vertical-align: middle;
+	padding-right: 5px;
+}
